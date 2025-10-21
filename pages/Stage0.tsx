@@ -20,7 +20,7 @@ const Stage0 = () => {
    
   return (
     <section className='container  '>
-   <article data-testid="test-profile-card" aria-label="User profile card" className='mt-8 lg:mt-0 md:mt-0'>
+   <article data-testid="test-profile-card" aria-label="User profile card" className='mt-4 lg:mt-0 md:mt-0'>
     <div className="card-header" aria-hidden="true">
       <figure aria-hidden="true">
         <img
