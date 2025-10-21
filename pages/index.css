@@ -1,0 +1,131 @@
+  
+   
+   .container{
+      font-family: "Inter", system-ui, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      min-width: 100vw;
+      margin: 0;
+    }
+
+    article[data-testid="test-profile-card"] {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 320px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    /* Header background */
+    .card-header {
+      height: 120px;
+      background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80")
+        center/cover no-repeat;
+      position: relative;
+    }
+
+    /* Avatar */
+    figure {
+      margin: 0;
+      position: absolute;
+      left: 50%;
+      bottom: -45px;
+      transform: translateX(-50%);
+    }
+
+    img[data-testid="test-user-avatar"] {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      object-fit: cover;
+    }
+
+    /* Profile content */
+    .profile-content {
+      padding: 3.5rem 1.5rem 1rem;
+    }
+
+    h2[data-testid="test-user-name"] {
+      margin: 0.5rem 0 0.3rem;
+      font-size: 1.25rem;
+      color: #333;
+    }
+
+    p[data-testid="test-user-bio"] {
+      color: #666;
+      font-size: 0.9rem;
+      margin: 0.25rem 0 1rem;
+    }
+
+    .info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .info span {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    
+    nav[data-testid="test-user-social-links"] {
+      background-color: #2301223f;
+      padding: 0.8rem 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      text-decoration: underline;
+      outline: none;
+    }
+
+   .lists>section>ul>li{
+    list-style: none;
+   }
+
+
+  
+    @media (min-width: 600px) {
+      article[data-testid="test-profile-card"] {
+        width: 360px;
+      }
+      figure {
+      margin: 0;
+      position: absolute;
+      left: 50%;
+      bottom: -45px;
+      transform: translateX(-50%);
+    }
+      
+    };
+    @media (max-width: 600px) {
+      .main-nav>ul{
+        display: none;
+      }
+    }
