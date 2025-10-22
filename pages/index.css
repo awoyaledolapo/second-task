@@ -63,7 +63,7 @@
       margin: 0.25rem 0 1rem;
     }
 
-    .info {
+    /* .info {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -76,11 +76,11 @@
       display: flex;
       align-items: center;
       gap: 0.3rem;
-    }
+    } */
 
     
     nav[data-testid="test-user-social-links"] {
-      background-color: #2301223f;
+      background-color: #0b59bf;
       padding: 0.8rem 0;
     }
 

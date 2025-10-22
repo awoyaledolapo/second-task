@@ -14,7 +14,7 @@ const Navbar = () => {
         {/* Logo */}
         <h1
          
-          className="font-semibold tracking-wide text-lg text-purple-400 transition "
+          className="font-semibold tracking-wide text-lg text-[#abdbf2d1] transition "
         >
           scavo's
         </h1>
@@ -55,8 +55,8 @@ const Navbar = () => {
               className={({ isActive }) =>
                 `px-4 py-2 rounded-full ${
                   isActive
-                    ? "bg-purple-600 text-white"
-                    : "hover:bg-purple-600 hover:text-white"
+                    ? "bg-[#0b59bf] text-white"
+                    : "hover:bg-[#0b59bf] hover:text-white"
                 }`
               }
             >
@@ -112,8 +112,8 @@ const Navbar = () => {
             className={({ isActive }) =>
               `block py-2 rounded-full mx-4 ${
                 isActive
-                  ? "bg-purple-600 text-white"
-                  : "hover:bg-purple-600 hover:text-white"
+                  ? "bg-[#bc1502a2] text-white"
+                  : "hover:bg-[#bc1502a2] hover:text-white"
               }`
             }
           >

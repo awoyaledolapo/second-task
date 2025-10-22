@@ -162,7 +162,7 @@ const ContactUs = () => {
             <button
               type="submit"
               data-testid="test-contact-submit"
-              className="w-full  bg-purple-600 text-white py-2 rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
+              className="w-full  bg-[#0b59bf] text-white py-2 rounded-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
             >
               Send message
             </button>
